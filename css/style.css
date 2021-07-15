@@ -59,7 +59,6 @@ section {
 img {
     display: block;
     max-width: 100%;
-    margin: 0 auto;
 }
 
 
@@ -282,8 +281,8 @@ header {
         margin: 0 auto;
         grid-column-gap: 1em;
         grid-template-areas: 
-            "title"
-            "subtitle";
+            "img title"
+            "img subtitle";
         grid-template-columns: min-content max-content;
     }
     
@@ -401,9 +400,9 @@ header {
         display: grid;
         grid-template-columns: 1fr 200px;
         grid-template-areas: 
-            "title"
-            "subtitle"
-            "text";
+            "title img"
+            "subtitle img"
+            "text img";
         grid-column-gap: 2em;
     }
     

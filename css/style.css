@@ -320,7 +320,7 @@ header {
         text-align: right;
         position: relative;
         left: -1.5em;
-        width: calc(100% + 4.5em);
+        width: calc(100% + 2.5em);
         font-size: 1rem;
     }
 
@@ -416,7 +416,7 @@ header {
     box-shadow: var(--bs);
 }
 
-@media (min-width: 650px) and (max-width: 800px) {
+@media (min-width: 600px) and (max-width: 800px) {
     .about-me {
         display: grid;
         grid-template-columns: 1fr 250px;
